@@ -1,0 +1,71 @@
+<html>
+     <head>
+	     <title>
+		 BÀI TẬP HTML FORM
+		 </title>
+	 </head>
+     <body>
+		<div id='form' style='text-align:center ; float:left'>
+		<h2 style='font-family:tahoma ; color:red'> TRƯỜNG TEXTFIELD </h2>
+		<hr noshade size='5' width='100%'> </hr>
+	    <form>
+	    Họ và tên <br>
+		<input type='text' name='hoten'> </input>
+		<br>
+		Số điện thoại <br>
+		<input type='text' name='phone'> </input>
+		</form>
+		<h2 style='font-family:tahoma ; color:red'> TRƯỜNG PASSWORD FILED </h2>
+		<br>
+		MẬT KHẨU <br>
+		<input type='password' name='pass'> </input>
+		<br>
+		<h2 style='font-family:tahoma ; color:violet'> TRƯỜNG HIDDEN FIELD</h2>
+		Trường ẩn Hidden (CHE DẤU DỮ LIỆU) <br>
+		<input type='hidden' name='hide'>
+		<br>
+		<h2 style='font-family:tahoma ; color:black'> TRƯỜNG CHECKBOX </h2>
+		PHƯƠNG ÁN: <br>
+		Phương án 1 <input type='CHECKBOX' name='PA1'> <br>
+		Phương án 2 <input type='CHECKBOX' name='PA2'> <br>
+		Phương án 3 <input type='CHECKBOX' name='PA3'> <br>
+		<h2 style='font-family:tahoma ; color:black'> TRƯỜNG RADIOBUTTON </h2>
+		GIỚI TÍNH (CÙNG NAME) CHỈ 1 LỰA CHỌN: <br>
+		NAM <input type='RADIO' name='SEX'> <br>
+		NỮ <input type='RADIO' name='SEX'> <br>
+		GIỚI TÍNH (KHÁC NAME) CÓ NHIỀU LỰA CHỌN: <br>
+		NAM <input type='RADIO' name='SEX1'> <br>
+		NỮ <input type='RADIO' name='SEX2' CHECKED> <br>
+		<hr noshade size='5' width='100%'> </hr>
+		<h2 style='font-family:tahoma ; color:black'> UPLOAD FILE </h2>
+		
+		<FORM name='frmmain' action='post' enctype='multipart/from-data'>
+			<input type='file' name='fileupload'> </input>
+				<input type='submit' name='send' value='Gửi Thông Tin'
+		</FORM>		
+		
+		<hr noshade size='5' width='100%'> </hr>
+		<h2 style='font-family:tahoma ; color:black'> BUTTON TỔNG QUÁT </h2>
+			<input type='button' name='press' value='ẤN VÀO ĐÂY' onclick="alert ('Shakira - Underneath Your Clothes')"> </input>
+		
+		<hr noshade size='5' width='100%'> </hr>
+		<h2 style='font-family:tahoma ; color:black'> NHẬP NHIỀU DÒNG </h2>
+		<textarea cols='20' rows='5' wrap='on'> Viết vào đây nhé! </textarea>
+		
+		<hr noshade size='5' width='100%'> </hr>
+		<h2 style='font-family:tahoma ; color:black'> DROPDOWN BOX </h2>
+		<SELECT name='option'>
+			<optgroup label='QUẢNG CÁO'>
+				<OPTION VALUE='1'> Facebook </OPTION>
+				<OPTION VALUE='2'> Google</OPTION>
+			</optgroup>
+			<optgroup label='THIẾT KẾ'>
+				<OPTION VALUE='3'> Logo </OPTION>
+				<OPTION VALUE='4'> Website </OPTION>
+			</optgroup>
+		</SELECT>
+		
+		</div>
+	 </body>
+
+</html>
